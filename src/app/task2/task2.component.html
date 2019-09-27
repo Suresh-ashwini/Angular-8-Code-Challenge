@@ -1,0 +1,18 @@
+<table class="table">
+  <thead>
+    <tr>
+      <th>UserId</th>
+      <th>Id</th>
+      <th>Title</th>
+      <th>Completed</th>
+    </tr>
+  </thead>
+  <tbody *ngFor="let val of list[0]">
+    <tr>
+      <td>{{ val.userId }}</td>
+      <td>{{ val.id }}</td>
+      <td>{{ val.title }}</td>
+      <td>{{ val.completed }}</td>
+    </tr>
+  </tbody>
+</table>
